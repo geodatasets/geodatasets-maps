@@ -2,7 +2,7 @@
   "name": "geodatasets-map",
   "version": "0.0.1",
   "description": "Wrapping of OpenLayers for Geodatasets Maps",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "npm start",
     "dev": "webpack --mode development",
