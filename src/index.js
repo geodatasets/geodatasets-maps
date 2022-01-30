@@ -1,4 +1,10 @@
 import GeodatasetsMap  from "./map/Map"
-import "./styles/all-with-ol.scss"
+import XyzLayer from "./layers/XyzLayer"
+import ZoomControl from "./controls/Zoom"
 
-export { GeodatasetsMap }
+
+export { 
+    GeodatasetsMap, 
+    XyzLayer,
+    ZoomControl
+}

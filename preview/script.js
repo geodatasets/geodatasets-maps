@@ -1,5 +1,7 @@
-import {GeodatasetsMap}  from "../src/index";
+import GeodatasetsMap  from "../src/map/Map";
 import XyzLayer from "../src/layers/XyzLayer"
+
+import "../src/styles/all-with-ol.scss";
 
 let mapa1 = new GeodatasetsMap({target:"mapa-1"})
 console.log(mapa1)

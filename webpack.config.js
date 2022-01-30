@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/build.js',
     output:{
         filename: 'GeodatasetsMap.js',
         path: path.resolve(__dirname,'dist'),

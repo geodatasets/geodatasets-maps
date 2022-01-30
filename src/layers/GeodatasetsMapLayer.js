@@ -2,7 +2,7 @@
 
 //var crypto = require('crypto');
 
-export default class GeodatasetLayer {
+export default class GeodatasetsMapLayer {
     _olLayer=undefined
     _options=undefined
     _visible=undefined
