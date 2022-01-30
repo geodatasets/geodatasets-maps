@@ -1,0 +1,42 @@
+{
+  "name": "geodatasets-map",
+  "version": "0.0.1",
+  "description": "Wrapping of OpenLayers for Geodatasets Maps",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "dev": "webpack --mode development",
+    "preview": "webpack --config preview/webpack.preview.js --mode development ",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geodatasets/geodatasets-maps.git"
+  },
+  "keywords": [
+    "ol",
+    "map",
+    "geodataset"
+  ],
+  "author": "migueldnt.dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geodatasets/geodatasets-maps/issues"
+  },
+  "homepage": "https://github.com/geodatasets/geodatasets-maps#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^6.5.1",
+    "mini-css-extract-plugin": "^2.5.3",
+    "ol": "^6.12.0",
+    "sass": "^1.49.0",
+    "sass-loader": "^12.4.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "files": [
+    "src/*"
+  ],
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0"
+  }
+}
