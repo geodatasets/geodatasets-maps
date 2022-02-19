@@ -3,10 +3,12 @@
 //var crypto = require('crypto');
 
 export default class GeodatasetsMapLayer {
-    _olLayer=undefined
-    _options=undefined
-    _visible=undefined
-    _opacity=undefined
+    _olLayer=undefined;
+    _options=undefined;
+    _visible=undefined;
+    _opacity=undefined;
+
+    _title= undefined;
 
     set olLayer(olLayer){
         this._olLayer = olLayer;
@@ -39,6 +41,7 @@ export default class GeodatasetsMapLayer {
         this._options = options || {}
         this._visible = options.visible ? true : false;
         this._opacity = options.opacity || 1
+        this._title = options.title || ""
         //console.log(crypto.randomUUID(),    )
     }
 

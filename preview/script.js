@@ -1,7 +1,9 @@
-import GeodatasetsMap  from "../src/map/Map";
-import XyzLayer from "../src/layers/XyzLayer"
+import {GeodatasetsMap,XyzLayer,GeojsonLayer} from "../src";
+
 
 import "../src/styles/all-with-ol.scss";
+
+console.log("generando mapa 1")
 
 let mapa1 = new GeodatasetsMap({target:"mapa-1"})
 console.log(mapa1)
@@ -10,5 +12,9 @@ let osmlayer = new XyzLayer({
     visible: true
 })
 mapa1.addGeodatasetsMapLayer(osmlayer)
-
+mapa1.addGeodatasetsMapLayer(new GeojsonLayer({
+    url:"assets/countries.geojson",
+    visible:true,
+    fastRender:true
+}))
 

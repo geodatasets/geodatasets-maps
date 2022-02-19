@@ -1,8 +1,17 @@
+/**
+ * @module geodatasets_map/map
+ */
 import { Object } from "ol"
 import Map from 'ol/Map';
 import View from 'ol/View';
 import ZoomControl from '../controls/Zoom'
 
+/**
+ * @classdesc
+ * Hola mundo
+ *
+ * @api
+ */
 export default class GeodatasetsMap extends Object {
     _olMap = undefined
     _options ={}
